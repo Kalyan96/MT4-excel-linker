@@ -1,0 +1,11 @@
+prefix=D:/anaconda/envs/mt4-excel linker/Library
+exec_prefix=D:/anaconda/envs/mt4-excel linker/Library
+libdir=D:/anaconda/envs/mt4-excel linker/Library/lib
+includedir=D:/anaconda/envs/mt4-excel linker/Library/include
+
+Name: FFTW
+Description: fast Fourier transform library
+Version: 3.3.9
+Libs: -L${libdir} -lfftw3 
+Libs.private: -lm
+Cflags: -I${includedir}
